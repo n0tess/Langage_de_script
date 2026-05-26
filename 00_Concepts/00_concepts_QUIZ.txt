@@ -1,0 +1,11 @@
+Q1.socket.SOCK_STREAM pour du TCP et socket.SOCK_DGRAM pour de l'UDP
+
+Q2.Un seul appel est nécessaire. En effet il y a qu'un seul mot
+
+Q3.Socket() et accept()
+
+Q4.
+
+Q5.
+
+Q6.
