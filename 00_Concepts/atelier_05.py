@@ -24,4 +24,4 @@ with s1, s2:
             
 # Question bonus : pourquoi est-ce inefficace en pratique ? Quelle structure de données permettrait d'optimiser (sans changer la sémantique) ?
 
-# 
+# C'est inefficace car on lit un octet à la fois. Une structure de données plus efficace serait une liste de bytes. 
