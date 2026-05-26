@@ -8,15 +8,13 @@ import struct
 def recv_exact(sock, n: int) -> bytes:
     morceaux = []
     restant = n
-    while restant > 0:
-        chunk = sock.recv(restant)
-        if not chunk:
-            break
-        if chunk == b'\n':
-            break
-        morceaux.append(chunk)
-        restant -= len(chunk)
-    return b''.join(morceaux)
+    while restant:
+        bloc = sock.recv(restant)
+        if not bloc:
+            raise ConnectionError("Connexion fermée prématurément")
+        morceaux.append(bloc)
+        restant -= len(bloc)
+    return b"".join(morceaux)
 
 def envoyer_message(sock, message: bytes) -> None:
     longueur = struct.pack('!I', len(message))
