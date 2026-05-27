@@ -26,4 +26,4 @@ lequel on lit par blocs (`recv(4096)`) puis on cherche `\n` avec
   lignes.
 
 ---
-*Évalué sur le commit `1cc1d97` (fichier `00_Concepts/atelier_05.py`).*
+*Évalué sur le commit `579fbdb` (fichier `network/00_Concepts/atelier_05.py`).*

@@ -26,4 +26,4 @@ plus court mais légèrement différent du nommage de référence).
   lignes.
 
 ---
-*Évalué sur le commit `8787f19` (fichier `00_Concepts/atelier_06.py`).*
+*Évalué sur le commit `579fbdb` (fichier `network/00_Concepts/atelier_06.py`).*

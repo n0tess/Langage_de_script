@@ -24,4 +24,4 @@ L'import `sys` est inutile (tu ne l'utilises pas).
   lignes.
 
 ---
-*Évalué sur le commit `2a2a415` (fichier `00_Concepts/atelier_07.py`).*
+*Évalué sur le commit `579fbdb` (fichier `network/00_Concepts/atelier_07.py`).*

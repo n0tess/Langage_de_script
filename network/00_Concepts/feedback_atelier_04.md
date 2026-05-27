@@ -29,4 +29,4 @@ La réponse est juste mais peut être enrichie :
 - Code lisible.
 
 ---
-*Évalué sur le commit `c1751f0` (fichier `00_Concepts/atelier_04.py`).*
+*Évalué sur le commit `579fbdb` (fichier `network/00_Concepts/atelier_04.py`).*

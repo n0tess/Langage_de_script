@@ -25,4 +25,4 @@ slots distincts.
   `sock` serait plus parlant.
 
 ---
-*Évalué sur le commit `c1751f0` (fichier `00_Concepts/atelier_02.py`).*
+*Évalué sur le commit `579fbdb` (fichier `network/00_Concepts/atelier_02.py`).*

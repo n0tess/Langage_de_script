@@ -58,4 +58,4 @@ print(f"Total : {len(ipv4) + len(ipv6)} enregistrement(s)")
   `socket.gaierror`.
 
 ---
-*Évalué sur le commit `c1751f0` (fichier `00_Concepts/atelier_01.py`).*
+*Évalué sur le commit `579fbdb` (fichier `network/00_Concepts/atelier_01.py`).*

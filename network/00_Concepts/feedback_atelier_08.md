@@ -27,4 +27,4 @@ Petite typo : « (san timeout) » → « (sans timeout) ».
 - `socket.timeout` est un alias historique de `TimeoutError`.
 
 ---
-*Évalué sur le commit `4003ee4` (fichier `00_Concepts/atelier_08.py`).*
+*Évalué sur le commit `579fbdb` (fichier `network/00_Concepts/atelier_08.py`).*
