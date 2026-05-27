@@ -9,10 +9,14 @@ from datetime import date
 
 prenom = input("Ton prénom : ")
 
+if(prenom.isalpha() == False) or not prenom:
+    print("Le prénom doit être composé de lettres uniquement et celui-ci ne doit pas être vide.")
+    exit(1)
+
 age = input("Ton âge : ")
 
-if(age.isdigit() == False):
-    print("L'âge doit être un nombre entier.")
+if(age.isdigit() == False) or not age:
+    print("L'âge doit être un nombre entier et celui-ci ne doit pas être vide.")
     exit(1)
 
 annee = date.today().year - int(age)
