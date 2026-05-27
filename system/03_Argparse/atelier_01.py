@@ -2,7 +2,7 @@
 
 # Atelier 1 - OUTHENIN Nicolas
 
-# Usage python3 atelier_01.py
+# Usage python3 atelier_01.py x {+,-,*,/} y
 
 import argparse
 import sys
@@ -13,14 +13,11 @@ def main():
         description="Une calculatrice minimale.",
     )
 
-    parser.add_argument("nombre_1")
+    parser.add_argument("nombre_1", type=float)
     parser.add_argument("operateur", choices=["+", "-", "*", "/"])
-    parser.add_argument("nombre_2")
+    parser.add_argument("nombre_2", type=float)
 
     args = parser.parse_args()
-
-    args.nombre_1 = float(args.nombre_1)
-    args.nombre_2 = float(args.nombre_2)
 
     if args.operateur == "+":
         print(f"{args.nombre_1} + {args.nombre_2} = {args.nombre_1 + args.nombre_2}")
