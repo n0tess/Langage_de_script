@@ -6,27 +6,41 @@ J'ai choisi d'utiliser l'option C JSON ligne car il est directement valide avec 
 
 ## Installation de Whois : 
 
+```
 sudo apt update && sudo apt install whois -y
+```
 
 ## Usage : 
 
-### Installation des requirements.txt 
+### Installation des requirements.txt 
 
+```
 pip install -r requirements.txt
+```
 
 ### Fichier OUTHENIN_Nicolas_exam_serveur.py 
 
+```
 python3 OUTHENIN_Nicolas_exam_serveur.py [-v|-vv|-vvv] serve 
+```
 
 ### Fichier OUTHENIN_Nicolas_exam_client.py 
 
+```
 python3 OUTHENIN_Nicolas_exam_client.py record mines-ales.fr
+```
 
+```
 python3 OUTHENIN_Nicolas_exam_client.py search mines-ales.fr
+```
 
+```
 python3 OUTHENIN_Nicolas_exam_client.py list
+```
 
+```
 python3 OUTHENIN_Nicolas_exam_client.py count
+```
 
 ## Informations 
 
